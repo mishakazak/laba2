@@ -1,0 +1,103 @@
+body {
+         background-image: url(D:/afishafake/images/ser.jpg) ;
+ background-color: #f8f8f8;
+	margin: 0;
+ 
+
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+header {
+ width: 800;
+height: 250;
+	padding: 20px 0;
+   background-image: url(D:/afishafake/images/af.png) ;
+    background-size: 100%;
+}
+.menu {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: -1px;
+    padding: 8px 14px;
+    color: #0088CC;
+    text-decoration: none;
+    border: 1px solid #E5E5E5;
+}
+
+.menu a:hover {
+    background: #F5F5F5;
+}
+
+.menu > li {
+    
+}
+
+         p {
+	margin: 20px 0;
+}
+.sidebar {
+width: 980px; 
+margin: auto;
+ background: #FFFFFF; /* Цвет фона */
+ width: 180px; 
+ float: left; /* Обтекание справа */
+}
+.content {
+         color:white;
+ margin-left: 200px;
+  width: 600px; /* Отступ слева */
+}
+
+
+
+
+figure {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+figure img {
+	display: block;
+	border: 1px solid #fff;
+	outline: 1px solid #c9c9c9;
+}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+figure figcaption span {
+	display: block;
+	font-size: 14px;
+	color: #29c5e6;
+}
+section > figure + figure {
+	margin-left: 28px;
+}
+
+
+TABLE {
+    background: white; 
+    color: white; 
+   }
+   TD, TH {
+    background: maroon; 
+    padding: 5px; 
+   }
+   .photo figure + figure {
+	margin-left: 50px;
+  margin-top:10px;
+}     
